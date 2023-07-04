@@ -1,151 +1,91 @@
-/* EddiesPlumbing&Heating.css */
-
-/* Reset default styles */
-html, body, h1, h2, p, ul, li, form, label, input, textarea, footer {
-    margin: 0;
-    padding: 0;
-}
-
-/* Global styles */
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    color: #333;
-    background-color: #f5f5f5;
-}
-
-header, main, footer {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-h1 {
-    font-size: 36px;
-    margin-bottom: 10px;
-}
-
-/* CSS for the slideshow */
-.slideshow-container {
-    position: relative;
-    margin-bottom: 20px;
-  }
-  
-  .mySlides {
-    display: none;
-  }
-  
-  .mySlides img {
-    width: 100%;
-    height: auto;
-  }
-  
-  .prev,
-  .next {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 18px;
-    font-weight: bold;
-    padding: 16px;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.5);
-    cursor: pointer;
-    user-select: none;
-  }
-  
-  .next {
-    right: 0;
-  }
-  
-  .dots-container {
-    text-align: center;
-  }
-  
-  .dot {
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    margin: 0 4px;
-    border-radius: 50%;
-    background-color: #bbb;
-  }
-  
-  .dot.active {
-    background-color: #717171;
-  }
-
-  
-h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-p {
-    margin-bottom: 20px;
-}
-
-ul {
-    list-style: disc;
-    margin-bottom: 20px;
-    padding-left: 20px;
-}
-
-ul li {
-    margin-bottom: 5px;
-}
-
-form {
-    margin-bottom: 20px;
-}
-
-label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 5px;
-}
-
-input,
-textarea {
-    width: 100%;
-    padding: 5px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-}
-
-input[type="submit"] {
-    background-color: #333;
-    color: #fff;
-    cursor: pointer;
-    border: none;
-    padding: 10px 20px;
-}
-
-footer {
-    text-align: center;
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-}
-
-/* Specific styles */
-header {
-    background-color: #f5f5f5;
-    text-align: center;
-    padding-bottom: 40px;
-}
-
-main {
-    background-color: #fff;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
-}
-
-ul li::before {
-    content: '\2022';
-    color: #333;
-    font-weight: bold;
-    display: inline-block;
-    width: 1em;
-    margin-left: -1em;
-}
+    /* CSS styles for visual appeal */
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      
+      header {
+        background-color: #003366;
+        color: #fff;
+        padding: 20px;
+      }
+      
+      nav {
+        margin-top: 20px;
+      }
+      
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      
+      nav ul li {
+        display: inline;
+        margin-right: 10px;
+      }
+      
+      .hero-section {
+        background-image: url("plumbing_hero_image.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: #fff;
+      }
+      
+      .hero-section h1 {
+        font-size: 40px;
+        margin-bottom: 20px;
+      }
+      
+      .hero-section p {
+        font-size: 20px;
+      }
+      
+      section {
+        padding: 40px;
+      }
+      
+      footer {
+        background-color: #003366;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+      
+      .services-list {
+        list-style-type: disc;
+        padding-left: 20px;
+      }
+      
+      .services-list li {
+        margin-bottom: 10px;
+      }
+      
+      .contact-info {
+        margin-bottom: 20px;
+      }
+      
+      .lead-form input,
+      .lead-form textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+      }
+      
+      .lead-form input[type="submit"] {
+        background-color: #003366;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+      }
+      
+      .lead-form input[type="submit"]:hover {
+        background-color: #002244;
+      }     
